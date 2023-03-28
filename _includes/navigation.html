@@ -1,0 +1,11 @@
+<nav>
+    <!-- 
+    Note the Jekyll code(?) simply lists over the pages we have stored in _data/navigation.yml. It then adds colour styling depending on whether you're on a particular page.
+     -->
+     
+    {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif%}>
+        {{ item.name }}
+    </a>
+    {% endfor %}
+</nav>

@@ -1,9 +1,17 @@
+---
+# front matter tells Jekyll to process Liquid
+# Can also be used to store variables (accessed through page.[var])
+
+layout: default
+title: Darren J. Scott
+---
+
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Darren J. Scott </title>
+    <title> {{ page.title }} </title>
 </head>
 <body>
     <h1> About </h1>
@@ -14,7 +22,9 @@
         Just playing around with hyperlinks, where does this go? <a href="https://pdg.lbl.gov" target="_blank"> MYSTERY? </a>
     </p>
     <hr>
-    <h1 style="font-size: 60px;"> Useful Notes? </h1>
+
+    <h1 style="font-size: 60px;"> {{ "Useful Notes?" | downcase }} </h1>
+
     <p title="Still just messing about really...">
         These are really useful notes. 
     </p>
