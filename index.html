@@ -1,42 +1,38 @@
 ---
-# front matter tells Jekyll to process Liquid
+# Front matter tells Jekyll to process Liquid (it is necessary)
 # Can also be used to store variables (accessed through page.[var])
+# Note the format is a snippet of YAML
 
-layout: default
+# layout: default <- this is covered in the _config.yml file. Removed from most other pages.
 title: Darren J. Scott
 ---
 
-<!DOCTYPE html>
-<html lang="en-GB">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> {{ page.title }} </title>
-</head>
-<body>
-    <h1> About </h1>
-    <p title="Yeah.. one day.."> 
-        Add information eventually. 
-    </p>
-    <p> 
-        Just playing around with hyperlinks, where does this go? <a href="https://pdg.lbl.gov" target="_blank"> MYSTERY? </a>
-    </p>
-    <hr>
+<!-- 
+    Note the usual header stuff and even the wrappings like <html>, or <body> </body> are stored in the _layouts/default.html file. This still works since they wrap around whatever page they are called on.
+-->
 
-    <h1 style="font-size: 60px;"> {{ "Useful Notes?" | downcase }} </h1>
 
-    <p title="Still just messing about really...">
-        These are really useful notes. 
-    </p>
-    <p>
-        Listen up sunshine,
-        I put spaces in the HTML code, but the browser doesn't care?!
-    </p>
-    <pre>
-        Use
-        the pre environment, 
-        dummy     it even keeps spaces.
-    </pre>
-    <!-- This can be used to write comments -->
-</body>
-</html>
+<h1> About </h1>
+<p title="Yeah.. one day.."> 
+    Add information eventually. Or not?
+</p>
+<p> 
+    Just playing around with hyperlinks, where does this go? <a href="https://pdg.lbl.gov" target="_blank"> MYSTERY? </a>
+</p>
+<hr>
+
+<h1 style="font-size: 60px;"> {{ "Useful Notes?" | downcase }} </h1>
+
+<p title="Still just messing about really...">
+    These are really useful notes. 
+</p>
+<p>
+    Listen up sunshine,
+    I put spaces in the HTML code, but the browser doesn't care?!
+</p>
+<pre>
+    Use
+    the pre environment, 
+    dummy     it even keeps spaces.
+</pre>
+<!-- This can be used to write comments -->
