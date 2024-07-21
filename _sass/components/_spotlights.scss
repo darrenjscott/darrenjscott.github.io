@@ -5,12 +5,12 @@
 ///
 
 /* Spotlights */
-
+/* EDITED OUT THE border-top ENFORCEMENT. WAS CAUSING ISSUE. */
 	.spotlights {
-		border-top: 0 !important;
+		/* border-top: 0 !important; */
 
 		& + * {
-			border-top: 0 !important;
+			/* border-top: 0 !important; */
 		}
 
 		> section {
@@ -29,7 +29,13 @@
 				img {
 					border-radius: 0;
 					display: block;
-					width: 100%;
+					position: relative;
+					top: 20%;
+					left: 50px;
+					right: 50px;
+					width: auto;
+					max-width: 400px;
+					margin: auto;
 				}
 
 				&:before {

@@ -26,10 +26,7 @@ nav-menu: true
 
 <!-- SMEFT DETAILS -->
 <section id="two" class="spotlights">
-    <section>
-        <a href="generic.html" class="image">
-            <img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
-        </a>
+    <section>  
         <div class="content">
             <div class="inner">
                 <header class="major">
@@ -42,11 +39,11 @@ nav-menu: true
                 </p>
             </div>
         </div>
+        <div class="image">
+            <img src="{% link assets/images/hbb_edit.png %}" alt="Higgs decaying to two b-quarks (blue), in ZH production. Detector graphic credit:CMS." data-position="top center"/>
+        </div>  
     </section>
     <section>
-        <a href="generic.html" class="image">
-            <img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
-        </a>
         <div class="content">
             <div class="inner">
                 <header class="major">
@@ -57,6 +54,9 @@ nav-menu: true
                 </p>
             </div>
         </div>
+        <div class="image">
+            <img src="{% link assets/images/input_scheme_art.png %}" alt="" data-position="top center" />
+        </div>
     </section>
 </section>
 
@@ -66,12 +66,15 @@ nav-menu: true
         <header class="major">
             <h2>Resummation for top-quark pair production</h2>
         </header>
+        <div class="image right">
+            <img src="assets/images/ttbar_prod.png" alt="Top quark pair-production in hadron collisions" />
+        </div>
         <p>
             Being the heaviest known fundamental particle so far discovered, studies of the top quark play an important role in testing the SM as well as investigating possible extensions of it. In particular, the production of top quark pairs, \(t\bar{t}\), at the LHC form a crucial part of these studies.
             Previously I have worked on projects involved in improving the accuracy of predictions based on the SM for the rate of top-quark pair production at the LHC. Specifically, we aimed to look at improving \(t\bar{t}\)-pair invariant mass distributions \(M_{t\bar{t}}\) (and later transverse momentum and rapidity distributions) by including resummation effects related to the emission of soft-gluons (threshold logarithms) and those related to a possible large scale hierarchy between the top mass, \(m_t\), and \(M_{t\bar{t}}\). We found that augmenting fixed order next-to-leading order (NLO) predictions (complete NNLO was not available at the time) with resummed results, leads to a radically different \(M_{t\bar{t}}\) spectrum as the energy of the \(t\bar{t}\)-pair increases. (<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.116.202001" target="_blank">Journal</a>, <a href="https://inspirehep.net/literature/1417004" target="_blank">inSPIRE-HEP</a>)
             While working on the project, the complete and full next-to-next-to-leading order (NNLO) predictions were computed elsewhere. The group responsible for those calculations spent considerable time studying the choice of factorization and renormalization scale, ultimately advocating (on the basis of perturbative stability among other things) a choice which differed from a common previous choice. Working with this group, we were able to augment their results with our resummed predictions and further study the sensitivity to the previously mentioned scales in our resummed results. Our work showed that the effect of resummation on top of fixed order \(M_{t\bar{t}}\) predictions is to drastically increase the stability of the prediction with respect to the scale choice along with a slight reduction in theory uncertainties. Furthermore we were able to gain some insight into why the instability in scale choice can be reduced (<a href="https://link.springer.com/article/10.1007/JHEP05(2018)149" target="_blank">Journal</a>, <a href="https://inspirehep.net/literature/1663444" target="_blank">inSPIRE-HEP</a>).
             Beyond this, we also worked in combining these with electroweak corrections (<a href="https://iopscience.iop.org/article/10.1088/1674-1137/44/8/083104" target="_blank">Journal</a>, <a href="https://inspirehep.net/literature/1716558" target="_blank">inSPIRE-HEP</a>) and investigating effects on the rapidity distributions \(y_t\) and \(Y_{t\bar{t}}\) (<a href="https://link.springer.com/article/10.1007/JHEP03(2019)060" target="_blank">Journal</a>, <a href="https://inspirehep.net/literature/1704967" target="_blank">inSPIRE-HEP</a>[Journal]).
-        </p>
+        </p>    
     </div>
 </section>
 

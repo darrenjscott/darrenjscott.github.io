@@ -1,7 +1,7 @@
 # site settings
 title: Darren J. Scott
 subtitle: #Physicist (particle theory)
-email: djamesscott90@gmail.com
+email:
 description: TEST
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://darrenjamesscott.com" # the base hostname & protocol for your site
@@ -22,6 +22,7 @@ tiles-count: 3
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
+  Envelope: test@test.com # For emails - the Envelope tag is important so it puts the right symbol at the bottom
   GitHub: https://github.com/darrenjscott
   GitLab:
   Google-Plus: 
