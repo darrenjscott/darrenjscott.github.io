@@ -1,7 +1,7 @@
 ---
 title: Physics research
 layout: landing
-description: 'Stuff I worked on..'
+description: 'Stuff I worked on'
 image: assets/images/board1.png
 nav-menu: true
 ---
