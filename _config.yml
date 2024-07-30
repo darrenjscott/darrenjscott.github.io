@@ -22,7 +22,7 @@ tiles-count: 3
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  Envelope: test@test.com # For emails - the Envelope tag is important so it puts the right symbol at the bottom
+  #Envelope: # For emails - the Envelope tag is important so it puts the right symbol at the bottom
   GitHub: https://github.com/darrenjscott
   GitLab:
   Google-Plus: 
